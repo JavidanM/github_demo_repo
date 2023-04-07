@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push  request events but only for the "test_ci" branch
   push:
-    branches: [ "test_ci" ]
+    branches: [ test_ci ]
  
 
   # Allows you to run this workflow manually from the Actions tab
