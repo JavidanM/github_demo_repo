@@ -30,6 +30,11 @@ jobs:
           echo "The platform is ${{ env.platform }}"
           echo "The region is $region"
           echo "profile_path"
+
+      - name: Display GH Default env variables
+        run: |
+          echo "Github Actor: $GITHUB_ACTOR"
+          echo "Github Ref: $GITHUB_REF"
         
         
     
