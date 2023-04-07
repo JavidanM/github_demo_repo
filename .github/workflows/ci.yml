@@ -40,6 +40,9 @@ jobs:
       - name: List all NEW files
         run: ls
 
+      - name: read the content of new file
+        run: cat LIKE_AND_SUBSCRIBE.txt
+
 
 
 #Install Python
