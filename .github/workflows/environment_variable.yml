@@ -25,7 +25,7 @@ jobs:
       
     steps:
       - name: Display custom environment variables
-        if: ${{ env.platform == 'Azure' }}
+        if: ${{ env.platform == 'Azzzure' }}
         run: |
           echo "The platform is ${{ env.platform }}"
           echo "The region is $region"
